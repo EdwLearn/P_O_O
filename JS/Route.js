@@ -1,5 +1,7 @@
-function Route () {
-    this.id;
-    this.init;
-    this.end;
+class Payment {
+    constructor () {
+        this.id;
+        this.init;
+        this.end;
+    }
 }
