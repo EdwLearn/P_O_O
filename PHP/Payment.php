@@ -1,4 +1,4 @@
 <?php
 class Payment {
-public $id = integer;
+public $id;
 }
