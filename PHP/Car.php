@@ -11,6 +11,7 @@ class Car {
     }
     public function PrintDataCar(){
         echo "license: $this->license Driver: ".$this->driver->name;
+        echo "<br>";
     }
 }
 ?>

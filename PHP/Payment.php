@@ -2,12 +2,13 @@
 class Payment {
     public $id;
 
-    public fuction __construct($id) {
+    public function __construct($id) {
         $this->id = $id;
     }
 
     public function printDataPayment(){
-        echo "ID Payment: " . $this->id;
+        echo " ID Payment: $this->id" ;
+        echo "<br>";
     }
 }
 
